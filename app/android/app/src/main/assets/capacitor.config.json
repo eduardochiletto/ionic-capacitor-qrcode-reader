@@ -1,0 +1,6 @@
+{
+	"appId": "com.joaobreder.qrcodereader",
+	"appName": "Ionic Capacitor QR Code Reader",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

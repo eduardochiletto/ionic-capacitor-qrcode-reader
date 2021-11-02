@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ionic Capacitor QR Code Reader</string>
+    <string name="title_activity_main">Ionic Capacitor QR Code Reader</string>
+    <string name="package_name">com.joaobreder.qrcodereader</string>
+    <string name="custom_url_scheme">com.joaobreder.qrcodereader</string>
+</resources>
