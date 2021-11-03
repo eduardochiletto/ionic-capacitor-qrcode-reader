@@ -1,0 +1,21 @@
+.container {
+    width: fit-content;
+    margin: auto auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.logo {
+    width: 11.2rem;
+    height: 11.2rem;
+    margin-top: 0.9rem;
+}
+
+.button {
+    margin-top: 5rem;
+}

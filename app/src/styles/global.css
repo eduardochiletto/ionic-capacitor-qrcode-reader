@@ -1,0 +1,10 @@
+/* Global CSS */
+* {
+  font-size: 62.5%;
+}
+
+/* Color Variables */
+:root {
+  --primary-color: #5D80FC;
+}
+

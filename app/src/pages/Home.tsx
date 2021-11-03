@@ -1,23 +1,23 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Home.css';
+import { IonPage } from '@ionic/react';
+import Button from '../components/Button/Button';
+
+import './Home.css'
+import qrcode from '../assets/qrcode.svg'
 
 const Home: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
-      </IonContent>
+      <div className='container' >
+        <div className='title'>
+          QR Code Reader
+        </div>
+
+        <div>
+          <img className='logo' alt='qrcode' src={qrcode} />
+        </div>
+
+        <Button />
+      </div>
     </IonPage>
   );
 };
