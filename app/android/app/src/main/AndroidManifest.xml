@@ -36,6 +36,8 @@
     </application>
 
     <!-- Permissions -->
-
+    <!-- Internet -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Video -->
+    <uses-permission android:name="android.permission.CAMERA" />
 </manifest>

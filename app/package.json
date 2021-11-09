@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@capacitor/android": "^3.2.5",
+    "@capacitor/clipboard": "^1.0.6",
     "@capacitor/core": "3.2.5",
     "@ionic-native/barcode-scanner": "^5.36.0",
     "@ionic-native/core": "^5.36.0",
